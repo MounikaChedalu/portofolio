@@ -103,7 +103,8 @@ section{
     width: 4rem;
     height: 4rem;
     background: transparent;
-    border: .2rem solid white;
+    border: .1rem solid white;
+    padding: 0.5rem;
     border-radius: 50%;
     font-size: 2rem;
     color: white;
@@ -111,15 +112,16 @@ section{
     transition: 0.5s ease-in-out;
     text-decoration: none;
 }
-.home-content p{
-    margin-bottom: 2rem;
-}
 .social-media a:hover {
     background-color:white;
     color:#0ef;
     box-shadow: 0 0 1rem gray;
     transform: rotate(1000deg);
 }
+.home-content p{
+    margin-bottom: 2rem;
+}
+
 .home-img   {
     width: 880px;
     height: 300px;
@@ -142,13 +144,6 @@ margin-top: -80px;
 
 .home-content p {
     font-size: 1.3rem;
-}
-
-.social-media a:hover {
-    background-color: var(--main-color);
-    color: var(--second-bg-color);
-    box-shadow: 0 0 1rem var(--main-color);
-    transform: rotate(360deg);
 }
 
 .btn {
